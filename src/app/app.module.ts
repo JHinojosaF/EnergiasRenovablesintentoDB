@@ -10,6 +10,8 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarruselComponent } from './carrusel/carrusel.component';
+import { OpinionComponent } from './opinion/opinion.component';
+import { AutModule } from './aut/aut.module';
 
 @NgModule({
   declarations: [
@@ -20,12 +22,14 @@ import { CarruselComponent } from './carrusel/carrusel.component';
     EnergiaGeotermicaComponent,
     MenuComponent,
     FooterComponent,
-    CarruselComponent
+    CarruselComponent,
+    OpinionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    AutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

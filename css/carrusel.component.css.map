@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,OAAO;EACnB,WAAW,EAAC,GAAG;EACf,KAAK,EAAE,KAAK;CACf;;AAED,AAAA,EAAE,CAAA;EACE,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,KAAK;CACf;;AAED,AAAA,CAAC,CAAA;EACG,UAAU,EAAC,MAAO;CACrB",
+    "sources": [
+        "../src/app/carrusel/carrusel.component.scss"
+    ],
+    "names": [],
+    "file": "carrusel.component.css"
+}
