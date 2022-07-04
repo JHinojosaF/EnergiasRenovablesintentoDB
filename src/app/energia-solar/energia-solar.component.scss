@@ -9,9 +9,10 @@ ul {
 li{
     list-style-type: none;
 }
-#solar {
+body {
     background-color: wheat;
     h1{
+        height: auto;
         background-color: $sol;
     }
     div.col-md-4, div.col-md-6{   
@@ -22,41 +23,3 @@ li{
     }
 }
 
-#eolico {
-    background-color: wheat;
-    h1{
-        background-color: $eolico;
-    }
-    div.col-md-4, div.col-md-6{   
-        background-color:$eolico;
-    }
-    div.card{
-        background-color:$agua;
-    }
-}
-
-#agua {
-    background-color: wheat;
-    h1{
-        background-color: $agua;
-    }
-    div.col-md-4, div.col-md-6{   
-        background-color:$agua;
-    }
-    div.card{
-        background-color:$geo;
-    }
-}
-
-#geo {
-    background-color: wheat;
-    h1{
-        background-color: $geo;
-    }
-    div.col-md-4, div.col-md-6{   
-        background-color:$geo;
-    }
-    div.card{
-        background-color:$sol;
-    }
-}
